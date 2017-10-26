@@ -1,0 +1,204 @@
+ body{
+ 	margin: 0px;
+ 	padding: 0px;
+
+ }
+
+ header{
+	height: 25%;
+ 	position: fixed;
+ 	width: 100%;
+ 	background-color: black;
+ 	box-sizing: border-box;
+ }
+
+ nav{
+ 	width: 100%;
+ 	height: 60px;
+ 	box-sizing: border-box;
+ 	position: absolute;
+ 	/*outline: 1px solid red;*/
+
+
+ }
+ nav ul{
+ 	margin: 0 auto;
+	box-sizing: border-box;
+	/* outline: 1px solid blue;*/
+ }
+
+
+nav ul li{
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+	left: 50px;
+
+}
+/*sacandoo la viñeta y dando color a los iconos*/
+li a,  input{
+	text-decoration: none;
+	color: #5E5D5D;
+
+}
+input{
+	left: 10px;
+}
+
+
+/*color al icono pinteres*/
+li .logo{
+	color: red;
+	position: relative;
+	bottom: 10px;
+	margin-right: 30px;
+	font-size: 30pt;
+	/*outline: 1px solid green;*/
+
+}
+
+
+
+/*mover elementos*/
+
+
+
+.bloqueprincipal{
+	bottom:  30px;
+}
+
+/*mover elementos*/
+
+.input{
+	position: relative;
+
+}
+
+.bloqueprincipal {
+	/*outline: 2px solid blue;*/
+	margin-top: 20px;
+	margin-bottom: 50px;
+	height: 35px;
+
+	display: inline-block;
+	text-align: center;
+	background-color: #BFB6B6;
+
+}
+/*ICONOS*/
+.icon-lupa, .icon-eliminar, .icon-chevron{
+	font-size: 14pt;
+	width: 5%;
+}
+
+input{
+	position: relative;
+	right: 80px;
+	background-color: #BFB6B6;
+	margin: 0px;
+
+}
+
+span{
+
+	font-size: 25px;
+	float: left;
+	margin-left:50px;
+	margin-top: 15px;
+}
+
+
+
+/*--------CONTEINER-------*/
+
+section .cajas{
+	/*outline: 2px solid red;*/
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 14pt;
+	position: absolute;
+	left: 8%;
+	top: 50%;
+}
+
+.cajas div{
+	/*outline: 2px solid blue;	*/
+	margin: 5px;
+	height: 30px;
+
+	display: inline-block;
+	text-align: center;
+	border-radius: 5%;
+	padding: 5px;
+	padding-top: 5px;
+
+}
+/*COLORES DE LAS CAJAS DE MENU*/
+.uno{
+	width: 120px;
+	background-color: #654C74;
+
+}
+.dos{
+	width: 100px;
+	background-color: #8547F7;
+}
+.tres{
+	width: 80px;
+	background-color: #12C7B4;
+}
+
+ /*segun el nav  es absolute el top:50% en caja*/
+.cajas{
+
+	display: inline-block;
+
+}
+
+.cajas div a{
+	text-decoration: none; /*borrar la linea del acolor: white;*/
+	display: block;/*para que ocupe todo el espacio del div y pueda ser seleccionado*/
+	color: white;
+}
+
+
+/*SECTION: IMAGENES*/
+
+.galeria{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 100%;
+	margin-top: 12%;
+	-webkit-box-sizing:border-box;
+	  -moz-box-sizing:border-box;
+	    box-sizing: border-box;
+	    float: left;
+    overflow: auto;
+
+}
+
+
+.galeria1{
+	margin: 0px;
+	width: 32%;
+	padding: 0px;/*padding: genera un espacio entre la imagen y su div*/
+	/*outline: 1px solid blue;*/
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+	float: left;
+
+}
+
+/*le puse en medio un margin a la izquierda y deracha*/
+#grupo2{
+	margin: 15px;
+}
+
+img{
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
